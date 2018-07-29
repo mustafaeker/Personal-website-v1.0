@@ -11,7 +11,7 @@ body {
 }
 /* NAVIGATION BAR */
         #nav-container {
-            background-color: #253748;
+            background-color: #2e323a;
             height: 100px;
         }
         #nav-inner {
@@ -44,7 +44,7 @@ body {
             padding: 10px;
         }
         #nav-menu li a:hover{
-            color:#0aaa9d;
+            color:#A67163;
         }
         .clear{
             clear: both;
@@ -52,13 +52,14 @@ body {
 
 /* HEADER */
 #header {
-    background-color: #18BC9C;
+    background-color: #96998E;
     text-align: center;
     color: white;
     }
 #header-inner{
     padding-top: 100px;
-    }
+    padding-bottom: 100px;
+}
 #profile-img{
     border-radius: 50%;
     width: 200px;
@@ -72,20 +73,28 @@ body {
     }
 #starline{
     border:none;
-    border-style: solid;
-    border-top: 5px;
-    max-width: 400px;
+    border-top: solid 5px;
+    max-width: 250px;
+    overflow: visible;
+    margin-top: 30px;
+   
 }
 #starline:after{
-    content: "\f005";
-    font-family: FontAwesome !important;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
+    
+    font-family: FontAwesome;
+    content: "\f013";
+    position:relative;
+    
+    top:-17px;
+    font-size: 2em;
+    background-color: #96998E;
+    padding: 10px;
+    
 }
 
 
 #header-inner span{
     padding: 10px;
-    font-size: 2em ;
+    font-size: 2.5em ;
+    
     }
