@@ -68,7 +68,7 @@ body {
 #header {
     background-color: #F5F5F5;
     text-align: center;
-    color: #555555;
+    color: #2e323a;
     }
 #header-inner{
     padding-top: 70px;
@@ -188,5 +188,57 @@ h2{
     font-size: 3em;
 }
 
+/*-------------ABOUT-------------------*/
 
+#about {
+    background-color: #F5F5F5;
+    text-align: center;
+    color: #2e323a;
+    }
 
+#about-inner{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#about-starline{
+    margin-top: 20px;
+    border:none;
+    border-top: solid 5px;
+    max-width: 250px;
+    overflow: visible;
+}
+
+#about-starline:after{
+    top:-17px;
+    font-size: 2em;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+#about-content{
+    text-align: justify;
+    column-count: 2;
+    column-gap: 40px;
+    column-width: 100%;
+}
+#about-cv{
+    margin-top: 30px;
+    color: #2e323a;
+    width: 250px;
+    padding: 15px;
+    border-style: none;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    background-color: #F5F5F5;
+    border: solid 2px #2e323a;
+    border-radius: 8px;
+    }
+#about-cv i{
+    padding-right: 10px;
+    }
+#about-cv:hover{
+    color: #ffffff;
+    background-color: #2e323a;
+    border: solid 2px #F5F5F5;
+    }
