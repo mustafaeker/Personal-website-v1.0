@@ -178,6 +178,7 @@ h2{
 .caption:hover{
 
     opacity: 0.5;
+    cursor: zoom-in;
 
 }
 .caption-content{
@@ -215,12 +216,27 @@ h2{
     background-color: #F5F5F5;
     padding: 10px;
 }
+
 #about-content{
     text-align: justify;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2;
     column-count: 2;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
     column-gap: 40px;
-    column-width: 100%;
+    colu
 }
+
+#about-content p{
+    margin-top :0px;
+    text-indent: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 1.2em;
+
+}
+
 #about-cv{
     margin-top: 30px;
     color: #2e323a;
@@ -233,12 +249,17 @@ h2{
     background-color: #F5F5F5;
     border: solid 2px #2e323a;
     border-radius: 8px;
+    text-align: center;
     }
+
 #about-cv i{
     padding-right: 10px;
+    font-size: 1.2em;
     }
+
 #about-cv:hover{
     color: #ffffff;
     background-color: #2e323a;
     border: solid 2px #F5F5F5;
+    cursor: pointer;
     }
