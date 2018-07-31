@@ -275,11 +275,13 @@ h2{
 #contact-inner{
     padding-top: 50px;
     padding-bottom: 100px;
+    
 }
 
 #contact-starline{
     border:none;
     border-top: solid 3px;
+    margin-bottom: 40px;
     max-width: 200px;
     overflow: visible;
     color: #2e323a;
@@ -293,11 +295,16 @@ h2{
 #form-container{
     width: 60%;
     margin: auto;
+    }
+    form{
+        
+    }
     
-}
+
 .form-item{
+   margin: auto;
     padding: 10px 10px;
-    width: 100%;
+    width: 80%;
     font-size:1.2em;
     height: 40px;
     display:block;
@@ -312,11 +319,12 @@ h2{
      color: lightgray;
 }
 #form-message{
+    margin: auto;
     font-family: 'Lato', Helvatica Neue, Helvatica, Arial, sans-serif;
     padding: 10px 10px;
-    font-size:1.2em;
+    font-size:1.25em;
     color: #2e323a;
-    width: 100%;
+    width: 80%;
     display: block;
     resize: none;
     border-style: none;
@@ -329,10 +337,10 @@ h2{
     
 }
 #button-send{
-    margin-left: -60%;
+    margin-left: -63%;
     margin-top: 30px;
     color: gray;
-    width: 250px;
+    width: 20%;
     padding: 15px;
     border-style: none;
     font-size: 1.4em;
@@ -354,3 +362,77 @@ textarea:focus, input:focus{
     border: solid 2px #F5F5F5;
     cursor: pointer;
     }
+
+/* footer */
+        #footer-container {
+        background-color: #333333;
+
+        }
+        #footer-inner {
+
+        }
+        #footer-up {
+         background-color: #333333;
+        }
+.trilogy{
+    display: inline-block;
+    float: left;
+    width: 31%;
+    margin:1%;
+    color: white;
+    text-align: center;
+}
+.trilogy h2{
+    color: white;
+}
+#links{
+list-style-type: none;
+display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#links li{
+ float: left;
+    padding: 10px;
+}
+#links li a{
+    display: block;
+    padding: 10px;
+    font-size: 1.7em;
+    color: grey;
+
+    border: solid 2px grey;
+    border-radius: 50%;
+}
+
+#links li a:hover{
+
+    color: white;
+    border-color: lightgrey;
+
+}
+
+
+
+.connections{
+margin-left: 3px;
+    margin-right: 3px;
+}
+        #footer-down {
+            background-color: #222222;
+            height: 100px;
+            width: 100½;
+            text-align: center;
+            
+            
+        }
+        #footer-down p{
+            display: block;
+            margin: 0;
+            padding: 40px;
+            color: white;
+        
+            
+            
+        }
